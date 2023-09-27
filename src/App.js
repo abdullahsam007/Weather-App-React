@@ -55,7 +55,7 @@ function App() {
 
 {city ? (
   <>
-    <h5 className='city'>{weatherData.name}</h5>
+    <h5 className='city'>{weatherData?.name}</h5>
     <h6 className='temp'>{weatherData?.main.temp}&deg; C</h6>
   </>
 ) : (
