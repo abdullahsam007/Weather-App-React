@@ -19,7 +19,7 @@ function App() {
         .catch((error) => {
           console.error('Error fetching weather data: ', error);
         });
-    }
+    } 
   };
 
   
@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="bg">
       <div className="weatherBg1">
-        <h1 className='title'>Weather App</h1>
+        <h1 className='title'>Weather app</h1>
         <div className="searchPart">
           <span className="searchIcon">&#128269;</span>
           <input
